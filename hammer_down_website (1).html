@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hammer Down Haulers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+    }
+    nav {
+      text-align: center;
+      background-color: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      max-width: 300px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea, form button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    form button {
+      background-color: #222;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .estimate-button {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .estimate-button a {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #e63946;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="hammer_down_haulers_logo.png" alt="Hammer Down Haulers Logo">
+  <h1>Hammer Down Haulers</h1>
+  <p>Junk/Debris Removal & Moving Services</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#coverage">Areas Covered</a>
+  <a href="#about">About</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#quote">Free Estimate</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <div class="section" id="services">
+    <h2>Services Offered</h2>
+    <ul>
+      <li>Residential / Commercial Cleanouts</li>
+      <li>Indoor / Outdoor Removal</li>
+      <li>Garages, Sheds, Apartments, Condos, Offices, Studios</li>
+      <li>Yard Debris, Spring Cleaning</li>
+      <li>Home Upgrades, Remodeling Cleanup</li>
+      <li>Business Relocation & Closures</li>
+      <li>Professional Moving Services (Pick-up, Delivery)</li>
+      <li>Donations of usable items to families in need</li>
+    </ul>
+  </div>
+
+  <div class="section" id="coverage">
+    <h2>Areas We Cover</h2>
+    <p>Statesboro, Savannah, and surrounding areas</p>
+    <p>
+      <strong>Discounts:</strong><br>
+      - 10% off for college students with ID<br>
+      - $20 referral bonus<br>
+      - Monthly $100 drawing for customers (or donate winnings)
+    </p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      Family owned and operated. We value your business and trust. It is our goal to leave you with a clean and safe environment when the job is complete.
+      We treat your property like it’s our own, and ensure your valuables are moved and delivered safely and on time.
+    </p>
+    <h3>My Story</h3>
+    <p>
+      I always dreamed of owning a business close to home. After college, I became a welder and joined Local Union 150, completing a 5-year apprenticeship.
+      I worked as a journeyman welder for 5 years and spent the last 10+ years as a mechanical supervisor in nuclear power, paper mills, and chemical plants.
+      Now, I’m proud to operate Hammer Down Haulers and make sure every customer is completely satisfied!
+    </p>
+  </div>
+
+  <div class="section" id="gallery">
+    <h2>Before & After Gallery</h2>
+    <div class="gallery">
+      <img src="images/before-after-1.jpg" alt="Before and After 1">
+      <img src="images/before-after-2.jpg" alt="Before and After 2">
+      <img src="images/before-after-3.jpg" alt="Before and After 3">
+    </div>
+  </div>
+
+  <div class="estimate-button">
+    <a href="#quote">Get a Free Estimate</a>
+  </div>
+
+  <div class="section" id="quote">
+    <h2>Request a Free Quote</h2>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Your Phone Number">
+      <textarea name="message" rows="5" placeholder="Describe the job or service you need" required></textarea>
+      <input type="hidden" name="_replyto" value="wmincey5000@yahoo.com">
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:4784554940">478-455-4940</a></p>
+    <p><strong>Email:</strong> <a href="mailto:wmincey5000@yahoo.com">wmincey5000@yahoo.com</a></p>
+    <p><strong>Facebook:</strong> <a href="https://facebook.com" target="_blank">Hammer Down Haulers</a></p>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Hammer Down Haulers. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
